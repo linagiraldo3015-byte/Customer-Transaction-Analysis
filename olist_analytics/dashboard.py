@@ -10,7 +10,7 @@ st.set_page_config(
 
 @st.cache_data
 def cargar_datos():
-    return pd.read_csv("rfm_data.csv")
+    return pd.read_csv("olist_analytics/rfm_data.csv")
 
 colores = {
     'Campeon': '#2ecc71', 'Cliente leal': '#3498db',
