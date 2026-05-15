@@ -2,6 +2,9 @@
 
 # Customer & Transaction Analytics — Olist E-Commerce
 
+[![Dashboard](https://img.shields.io/badge/Dashboard-Live-green)](https://customer-transaction-analysis-m8jxtqbgwcfsrae5y4tt45.streamlit.app/)
+
+
 Análisis end-to-end de comportamiento de clientes y segmentación RFM 
 sobre 99,441 órdenes reales de e-commerce brasileño (2016-2018).
 
