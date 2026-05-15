@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+import os
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 st.set_page_config(
     page_title="Customer Analytics - Olist",
