@@ -10,7 +10,9 @@ sobre 99,441 órdenes reales de e-commerce brasileño (2016-2018).
 
 ## Herramientas
 - PostgreSQL 16 — limpieza, transformación y análisis
-- Python (Pandas, Matplotlib, Seaborn) — visualizaciones
+- Python (Pandas, Plotly) — visualizaciones
+- Prophet — modelos predictivos
+- Streamlit — dashboard interactivo
 - DBeaver — gestión de base de datos
 - VS Code + Jupyter Notebook
 
@@ -23,10 +25,15 @@ olist_analytics/
 │   ├── limpieza_datos.sql
 │   ├── transformacion_datos.sql
 │   └── analisis_rfm.sql
+├── dashboard.py
 ├── Analisis_rfm.ipynb
+├── predictive_models.ipynb
+├── analytics_data.csv
+├── rfm_data.csv
 ├── segmentos_rfm.png
 ├── revenue_segmentos.png
-└── distribucion_rfm.png
+├── distribucion_rfm.png
+└── CLAUDE.md
 
 ## Arquitectura de datos
 El proyecto usa una arquitectura de dos esquemas:
@@ -49,6 +56,13 @@ El proyecto usa una arquitectura de dos esquemas:
 | Cliente leal | 14,886 | 15.95% |
 | Regular | 11,285 | 12.09% |
 | Campeon | 7,528 | 8.06% |
+
+## Modelos Predictivos
+- Forecast de revenue mensual usando Prophet
+- Proyección de 6 meses hacia adelante (sep 2018 - feb 2019)
+- Crecimiento proyectado: 58.2%
+- Revenue proyectado feb 2019: R$ 1,650,682
+- Revenue acumulado proyectado 6 meses: R$ 9,024,193
 
 ## Insights de negocio
 - La frecuencia promedio es 1 en todos los segmentos — Olist tiene un problema severo de retención
